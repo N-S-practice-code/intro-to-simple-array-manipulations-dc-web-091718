@@ -22,6 +22,15 @@ end
 def using_insert(array,el)
   array.push(el)
 end
+def using_uniq(array,el)
+  array.push(el)
+end
+def using_flatten(array,el)
+  array.push(el)
+end
+def using_delete(array,el)
+  array.push(el)
+end
 def using_pop_with_args(array,el)
   array.push(el)
 end
