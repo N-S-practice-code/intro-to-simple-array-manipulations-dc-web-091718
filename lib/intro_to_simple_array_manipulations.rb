@@ -10,3 +10,7 @@ end
 def using_pop_with_args(array,el)
   array.push(el)
 end
+
+def using_pop_with_args(array,el)
+  array.push(el)
+end
