@@ -16,10 +16,10 @@ end
 def using_shift_with_args(array,el)
   array.push(el)
 end
-def using_pop_with_args(array,el)
+def using_concat(array,el)
   array.push(el)
 end
-def using_pop_with_args(array,el)
+def using_insert(array,el)
   array.push(el)
 end
 def using_pop_with_args(array,el)
