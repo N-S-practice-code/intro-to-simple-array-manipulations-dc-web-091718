@@ -31,6 +31,6 @@ end
 def using_delete(array,el)
   array.push(el)
 end
-def using_pop_with_args(array,el)
+def using_delete_at(array,el)
   array.push(el)
 end
