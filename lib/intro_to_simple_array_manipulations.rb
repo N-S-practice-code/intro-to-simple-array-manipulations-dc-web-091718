@@ -3,7 +3,7 @@ def using_push(array,el)
 end
 def using_unshift(array,el)
   array.unshift(el)
-en
+end
 def using_pop(array)
   array.pop
 end
