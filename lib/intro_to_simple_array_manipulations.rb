@@ -4,10 +4,10 @@ end
 def using_unshift(array,el)
   array.unshift(el)
 en
-def using_pop(array,el)
-  array.pop(el)
+def using_pop(array)
+  array.pop
 end
-def using_pop_with_args(array,el)
+def using_pop_with_args(array)
   array.push(el)
 end
 def using_shift(array,el)
