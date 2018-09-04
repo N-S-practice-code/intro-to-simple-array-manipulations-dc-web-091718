@@ -7,6 +7,6 @@ en
 def using_pop(array,el)
   array.pop(el)
 end
-def using_push(array,el)
+def using_pop_with_args(array,el)
   array.push(el)
 end
