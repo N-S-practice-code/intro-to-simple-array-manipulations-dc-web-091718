@@ -17,20 +17,20 @@ def using_shift_with_args(array)
   array.shift(2)
 end
 def using_concat(array1,array2)
-  array.push(el)
+  array.concat(array2)
 end
 def using_insert(array,el)
-  array.push(el)
+  array.insert(el)
 end
 def using_uniq(array,el)
   array.push(el)
 end
-def using_flatten(array,el)
-  array.push(el)
+def using_flatten(array)
+  array.flatten
 end
-def using_delete(array,el)
-  array.push(el)
+def using_delete(array)
+  array.delete
 end
 def using_delete_at(array,el)
-  array.push(el)
+  array.delete()
 end
