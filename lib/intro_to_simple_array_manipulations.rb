@@ -22,8 +22,8 @@ end
 def using_insert(array,el)
   array.insert(el, 4)
 end
-def using_uniq(array,el)
-  array.push(el)
+def using_uniq(array)
+  array.uniq
 end
 def using_flatten(array)
   array.flatten
